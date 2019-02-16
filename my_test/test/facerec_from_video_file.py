@@ -8,7 +8,7 @@ import cv2
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 
 # Open the input movie file
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 input_movie = cv2.VideoCapture(imagePath+"hamilton_clip.mp4")
 length = int(input_movie.get(cv2.CAP_PROP_FRAME_COUNT))
 

@@ -15,7 +15,7 @@ import cv2
 # specific demo. If you have trouble installing it, try any of the other demos that don't require it instead.
 
 # Open video file
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 
 video_capture = cv2.VideoCapture(imagePath+"short_hamilton_clip.mp4")
 

@@ -3,7 +3,7 @@
 import face_recognition
 import cv2
 
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 
 video_capture = cv2.VideoCapture(imagePath+"short_hamilton_clip.mp4")
 frames = []

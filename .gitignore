@@ -63,3 +63,6 @@ target/
 .python-version
 
 .idea/
+
+# ignore the output video in my test
+my_test/test/output.avi

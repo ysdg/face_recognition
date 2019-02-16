@@ -2,7 +2,7 @@
 #-*- coding:utf8 -*-
 import face_recognition
 
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 
 biden_image = face_recognition.load_image_file(imagePath+"biden.jpg")
 obama_image = face_recognition.load_image_file(imagePath+"obama.jpg")

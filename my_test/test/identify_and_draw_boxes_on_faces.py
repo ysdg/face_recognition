@@ -3,7 +3,7 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 obama_image = face_recognition.load_image_file(imagePath+"obama.jpg")
 obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
 

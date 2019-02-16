@@ -3,7 +3,7 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-imagePath = "../face_recognition/examples/"
+imagePath = "../../examples/"
 image = face_recognition.load_image_file(imagePath+"two_people.jpg")
 face_landmarks_list = face_recognition.face_landmarks(image)
 
